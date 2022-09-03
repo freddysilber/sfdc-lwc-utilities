@@ -1,0 +1,16 @@
+# Ignore Salesforce folders and config files
+.sf
+.sfdx
+.sfdx/*
+**/profiles/**
+# Ignore npm dependencies
+node_modules
+# Ignore IDE things
+.vscode
+config
+package-lock.json
+#  Ignore Mac OS config
+.DS_Store
+
+# LWC
+force-app/main/default/lwc/jsconfig.json

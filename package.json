@@ -1,0 +1,24 @@
+{
+  "name": "sfdc-lwc-utilities",
+  "version": "1.0.0",
+  "description": "Common Lightning Web Component Utilities on Salesforce",
+  "scripts": {
+    "--------------------------- SFDX ---------------------------": "",
+    "push": "sfdx force:source:push",
+    "force-push": "sfdx force:source:push -f",
+    "scaffold": "node tools/scaffold.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freddysilber/sfdc-lwc-utilities.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/freddysilber/sfdc-lwc-utilities/issues"
+  },
+  "homepage": "https://github.com/freddysilber/sfdc-lwc-utilities#readme",
+  "devDependencies": {
+    "yargs": "^17.5.1"
+  }
+}
